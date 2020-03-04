@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+                document.querySelector('#add_pkmn').onclick = () => {
+                    add_more_pkmn();
+                    return false;
+                };
+            });
+
+
+    function add_more_pkmn() {
+        const request = new XMLHttpRequest();
+        request.open('POST', '/new-pokemon');
+
+        request.onload = () => {
+            const response = request.responseText;
+            console.log(response);
+            const list_item = document.createElement('li');
+            list_item.innerHTML = response;
+            document.querySelector('#pkmn_list').append(list_item);
+        };
+        request.send();
+    }
+        </script>
+        <title>Pokemon Battle Data</title>
+    </head>
+
+    <body>
+    <h1>Welcome to Pokemon Battle Data!</h1>
+    <h3>Please decide if you want to see more pokemon!</h3>
+
+    <form id="add_pkmn">
+        <input type="button" value="submit">
+    </form>
+
+    <div>
+
+        <img src="{{pkmn_src}}" height="42" width="42">
+
+        <h3 id="name"></h3>
+        {{ main_poke }}
+
+        <h5>Base Stats</h5>
+
+        <h5>Moves</h5>
+
+        <h5>Teammates</h5>
+
+        <h5>Items</h5>
+
+        <h5>Abilities</h5>
+
+        <h5>Natures and EV Spreads</h5>
+    </div>
+
+    <ul id="pkmn_list">
+{#        {{ first_pkmn }}#}
+{#        {{ next_pkmn }}#}
+        {% for element in pkmn %}
+        <h5> {{ element }} </h5>
+    {% endfor %}
+
+    {{ new_poke }}
+    </ul>
+
+    </body>
+
+</html>

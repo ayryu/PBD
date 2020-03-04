@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad9608a2-0246-4c57-b92d-4efec4e29859" name="Default Changelist" comment="" />
+    <list default="true" id="ad9608a2-0246-4c57-b92d-4efec4e29859" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_build/application.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_build/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,14 +17,29 @@
   <component name="FavoritesManager">
     <favorites_list name="Pokemon-Battle-Data" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1YH98oAi4tLuQdxlyclKWcgVUQU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -28,7 +50,13 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Flask server.Flask (application.py)">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\alexr\Python Projects\Flask\Pokemon-Battle-Data\main_build" />
+      <recent name="C:\Users\alexr\Python Projects\Flask\Pokemon-Battle-Data" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Flask server.Flask (main_build/application.py)">
     <configuration name="Pokemon-Battle-Data" type="PythonConfigurationType" factoryName="Python">
       <module name="Pokemon-Battle-Data" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -42,7 +70,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/application.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\alexr\Python Projects\Flask\Pokemon-Battle-Data\main_build\application.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -51,14 +79,14 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Flask (application.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
+    <configuration name="Flask (main_build/application.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
       <module name="Pokemon-Battle-Data" />
-      <option name="target" value="$PROJECT_DIR$/application.py" />
+      <option name="target" value="$PROJECT_DIR$/main_build/application.py" />
       <option name="targetType" value="PATH" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -68,7 +96,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Flask server.Flask (application.py)" />
+        <item itemvalue="Flask server.Flask (main_build/application.py)" />
       </list>
     </recent_temporary>
   </component>
@@ -84,6 +112,15 @@
       <updated>1582588498513</updated>
       <workItem from="1582588533178" duration="3452000" />
       <workItem from="1582592993415" duration="7841000" />
+      <workItem from="1582664612534" duration="2997000" />
+      <workItem from="1582842783418" duration="17675000" />
+      <workItem from="1582998722907" duration="14327000" />
+      <workItem from="1583027363085" duration="5295000" />
+      <workItem from="1583111717178" duration="8786000" />
+      <workItem from="1583173196856" duration="10219000" />
+      <workItem from="1583258571459" duration="3140000" />
+      <workItem from="1583285428413" duration="6834000" />
+      <workItem from="1583336098690" duration="4503000" />
     </task>
     <servers />
   </component>
@@ -91,46 +128,59 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="0" width="1203" height="824" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582590802168">
+    <state x="223" y="0" width="1203" height="824" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583297709287">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="223" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1920.2.1920.1040@0.0.1536.824" timestamp="1583297709287" />
     <state x="223" y="0" width="1203" height="824" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1582590802168" />
+    <state x="437" y="61" key="EnvironmentVariablesDialog" timestamp="1583198634916">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="437" y="61" key="EnvironmentVariablesDialog/0.0.1536.824/1920.2.1920.1040@0.0.1536.824" timestamp="1583198634916" />
     <state x="435" y="51" key="FileChooserDialogImpl" timestamp="1582594962528">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="435" y="51" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582594962528" />
-    <state width="699" height="212" key="GridCell.Tab.0.bottom" timestamp="1582606790709">
+    <state width="1469" height="146" key="GridCell.Tab.0.bottom" timestamp="1583348531369">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="699" height="212" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582606790709" />
-    <state width="699" height="212" key="GridCell.Tab.0.center" timestamp="1582606790709">
+    <state width="1469" height="146" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.2.1920.1040@0.0.1536.824" timestamp="1583348531369" />
+    <state width="1469" height="268" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583123777289" />
+    <state width="1469" height="146" key="GridCell.Tab.0.center" timestamp="1583348531369">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="699" height="212" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582606790709" />
-    <state width="699" height="212" key="GridCell.Tab.0.left" timestamp="1582606790709">
+    <state width="1469" height="146" key="GridCell.Tab.0.center/0.0.1536.824/1920.2.1920.1040@0.0.1536.824" timestamp="1583348531369" />
+    <state width="1469" height="268" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583123777289" />
+    <state width="1469" height="146" key="GridCell.Tab.0.left" timestamp="1583348531369">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="699" height="212" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582606790709" />
-    <state width="699" height="212" key="GridCell.Tab.0.right" timestamp="1582606790709">
+    <state width="1469" height="146" key="GridCell.Tab.0.left/0.0.1536.824/1920.2.1920.1040@0.0.1536.824" timestamp="1583348531369" />
+    <state width="1469" height="268" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583123777289" />
+    <state width="1469" height="146" key="GridCell.Tab.0.right" timestamp="1583348531369">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="699" height="212" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582606790709" />
-    <state width="699" height="212" key="GridCell.Tab.1.bottom" timestamp="1582606790709">
+    <state width="1469" height="146" key="GridCell.Tab.0.right/0.0.1536.824/1920.2.1920.1040@0.0.1536.824" timestamp="1583348531369" />
+    <state width="1469" height="268" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583123777289" />
+    <state width="1469" height="268" key="GridCell.Tab.1.bottom" timestamp="1583202578328">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="699" height="212" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582606790709" />
-    <state width="699" height="212" key="GridCell.Tab.1.center" timestamp="1582606790709">
+    <state width="1469" height="268" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.2.1920.1040@0.0.1536.824" timestamp="1583202578328" />
+    <state width="1469" height="268" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583123777289" />
+    <state width="1469" height="268" key="GridCell.Tab.1.center" timestamp="1583202578328">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="699" height="212" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1582606790709" />
-    <state width="699" height="212" key="GridCell.Tab.1.left" timestamp="1582606790709">
+    <state width="1469" height="268" key="GridCell.Tab.1.center/0.0.1536.824/1920.2.1920.1040@0.0.1536.824" timestamp="1583202578328" />
+    <state width="1469" height="268" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1583123777289" />
+    <state width="1469" height="268" key="GridCell.Tab.1.left" timestamp="1583202578328">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="699" height="212" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1582606790709" />
-    <state width="699" height="212" key="GridCell.Tab.1.right" timestamp="1582606790709">
+    <state width="1469" height="268" key="GridCell.Tab.1.left/0.0.1536.824/1920.2.1920.1040@0.0.1536.824" timestamp="1583202578328" />
+    <state width="1469" height="268" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1583123777289" />
+    <state width="1469" height="268" key="GridCell.Tab.1.right" timestamp="1583202578328">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="699" height="212" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1582606790709" />
+    <state width="1469" height="268" key="GridCell.Tab.1.right/0.0.1536.824/1920.2.1920.1040@0.0.1536.824" timestamp="1583202578328" />
+    <state width="1469" height="268" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1583123777289" />
     <state x="24" y="0" key="SettingsEditor" timestamp="1582594991758">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -139,13 +189,19 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="330" y="151" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1582588593662" />
-    <state x="125" y="22" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1582602027837">
+    <state x="125" y="22" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1583197955716">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="125" y="22" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1582602027837" />
+    <state x="125" y="22" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824/1920.2.1920.1040@0.0.1536.824" timestamp="1583197955716" />
+    <state x="125" y="22" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1583118495530" />
+    <state x="262" y="143" width="1009" height="1470" key="search.everywhere.popup" timestamp="1582932927735">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="262" y="143" width="1009" height="1470" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1582932927735" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Pokemon_Battle_Data$Flask__application_py_.coverage" NAME="Flask (application.py) Coverage Results" MODIFIED="1582604820282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Pokemon_Battle_Data$Flask__main_build_application_py_.coverage" NAME="Flask (main_build/application.py) Coverage Results" MODIFIED="1583345072400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Pokemon_Battle_Data$Flask__application_py_.coverage" NAME="Flask (application.py) Coverage Results" MODIFIED="1583201676801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Pokemon_Battle_Data$Pokemon_Battle_Data.coverage" NAME="Pokemon-Battle-Data Coverage Results" MODIFIED="1582590314661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
