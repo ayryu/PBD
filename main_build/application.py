@@ -1,11 +1,12 @@
 from flask import Flask, render_template
+from flask_sqlalchemy import SQLAlchemy
 import requests
 from bs4 import BeautifulSoup
 from time import sleep, time
 from random import randint
 
 app = Flask(__name__)
-
+db = SQLAlchemy()
 
 @app.route("/")
 def index():
